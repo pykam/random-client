@@ -1,0 +1,17 @@
+{
+    "name": "pykam/random-client",
+    "description": "A client for random-api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pykam\\RandomClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Albert",
+            "email": "albert.kuular@gmail.com"
+        }
+    ],
+    "require": {}
+}
