@@ -1,0 +1,1 @@
+# Библиотека для использования [random-api](https://github.com/pykam/random-api)
