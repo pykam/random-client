@@ -18,7 +18,7 @@ class Request {
     public function get()
     {
         $request = curl_init($this->url);
-        curl_setopt($request, CURLOPT_HEADER, true);
+        curl_setopt($request, CURLOPT_HEADER, false);
         $response = curl_exec($request);
         curl_close($request);
         return $response;
